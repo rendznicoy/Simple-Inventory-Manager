@@ -1,10 +1,10 @@
 # Simple Inventory Manager
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge&logo=checkbox)
 
-> **A lightweight, browser-based tool for tracking product stocks.**
+> **A real-time inventory tracking tool powered by Firebase.**
 
-This web application provides a straightforward interface for managing inventory without the need for complex backend setups. Developed using pure HTML, CSS, and JavaScript, it serves as a demonstration of DOM manipulation and client-side logic for basic CRUD (Create, Read, Update, Delete) operations.
+This web application upgrades the traditional static inventory manager by integrating **Firebase** for backend services. It allows users to add, remove, and update stock levels with data persistence, ensuring that inventory records are securely stored in the cloud and accessible across sessions.
 
 <p align="center">
   <img src="Images/SIM.png" alt="Project Preview" width="75%" />
@@ -14,18 +14,17 @@ This web application provides a straightforward interface for managing inventory
 
 ## Key Features
 
-* **Instant Updates:** Add and remove inventory items dynamically without page reloads.
-* **Zero Dependencies:** Runs entirely in the browser using standard web technologies.
-* **Clean Interface:** A minimalist design focused purely on functionality and ease of use.
-* **Responsive Layout:** Adapts to different screen sizes using CSS media queries.
+* **Persistent Storage:** Inventory data is stored in **Firebase**, preventing data loss upon page reloads.
+* **Real-Time CRUD:** Create, Read, Update, and Delete stock items with instant synchronization to the database.
+* **Live Updates:** Changes made to the inventory are immediately reflected in the UI.
+* **Zero Dependencies:** Built with vanilla JavaScript, keeping the application lightweight and fast.
 
 ---
 
 ## Tech Stack
 
-* **Structure:** HTML5
-* **Styling:** CSS3
-* **Logic:** Vanilla JavaScript (ES6+)
+* **Frontend:** HTML5, CSS3, Vanilla JavaScript (ES6+)
+* **Backend-as-a-Service:** Firebase (Realtime Database / Firestore)
 
 ---
 
